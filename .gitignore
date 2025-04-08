@@ -1,0 +1,6 @@
+.git/
+build/
+.idea/
+__pycache__/
+dist/
+game.spec

@@ -620,17 +620,17 @@ def loadSprites(sprites: dict[str: list[pygame.image]]):
     sprites["wall_a"] = wall_a_list_sprites
 
 def loadSounds(sounds: dict[str: pygame.mixer.Sound]):
-    background_sound = pygame.mixer.Sound(".\miusic\\background_sound.mp3")
+    background_sound = pygame.mixer.Sound("./music/background_sound.mp3")
     background_sound.set_volume(0.3)
-    collecting_warm_sound = pygame.mixer.Sound(".\miusic\\collecting_warm.mp3")
+    collecting_warm_sound = pygame.mixer.Sound("./music/collecting_warm.mp3")
     collecting_warm_sound.set_volume(0.2)
-    god_mod_sound = pygame.mixer.Sound(".\miusic\\god_mod.mp3")
+    god_mod_sound = pygame.mixer.Sound("./music/god_mod.mp3")
     god_mod_sound.set_volume(0.2)
-    player_death_sound = pygame.mixer.Sound(".\miusic\\player_death.wav")
+    player_death_sound = pygame.mixer.Sound("./music/player_death.wav")
     player_death_sound.set_volume(0.4)
-    creature_death_sound = pygame.mixer.Sound(".\miusic\\creature_death.wav")
+    creature_death_sound = pygame.mixer.Sound("./music/creature_death.wav")
     creature_death_sound.set_volume(0.4)
-    game_over_sound = pygame.mixer.Sound(".\miusic\\game_over.wav")
+    game_over_sound = pygame.mixer.Sound("./music/game_over.wav")
     game_over_sound.set_volume(0.5)
 
     sounds["background"] = background_sound
